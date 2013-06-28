@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942F1CA6177AD54C007CCF18 /* UserPrefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942F1CA5177AD54C007CCF18 /* UserPrefViewController.m */; };
 		9448AA43177ABF0600639E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448AA42177ABF0600639E6D /* Foundation.framework */; };
 		9448AA45177ABF0600639E6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448AA44177ABF0600639E6D /* CoreGraphics.framework */; };
 		9448AA47177ABF0600639E6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448AA46177ABF0600639E6D /* UIKit.framework */; };
@@ -14,13 +15,14 @@
 		9448AA4F177ABF0600639E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9448AA4E177ABF0600639E6D /* main.m */; };
 		9448AA53177ABF0600639E6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9448AA52177ABF0600639E6D /* AppDelegate.m */; };
 		9448AA56177ABF0600639E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9448AA54177ABF0600639E6D /* Main.storyboard */; };
-		9448AA59177ABF0600639E6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9448AA58177ABF0600639E6D /* ViewController.m */; };
 		9448AA5B177ABF0600639E6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9448AA5A177ABF0600639E6D /* Images.xcassets */; };
 		9448AA62177ABF0600639E6D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448AA61177ABF0600639E6D /* XCTest.framework */; };
 		9448AA63177ABF0600639E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448AA42177ABF0600639E6D /* Foundation.framework */; };
 		9448AA64177ABF0600639E6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448AA46177ABF0600639E6D /* UIKit.framework */; };
 		9448AA6C177ABF0600639E6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9448AA6A177ABF0600639E6D /* InfoPlist.strings */; };
 		9448AA6E177ABF0600639E6D /* Week_8_Final_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9448AA6D177ABF0600639E6D /* Week_8_Final_ProjectTests.m */; };
+		9448AA79177ABFA300639E6D /* FoxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9448AA78177ABFA300639E6D /* FoxWebViewController.m */; };
+		9448AA7C177ABFB800639E6D /* RumorsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9448AA7B177ABFB800639E6D /* RumorsWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		942F1CA4177AD54C007CCF18 /* UserPrefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPrefViewController.h; sourceTree = "<group>"; };
+		942F1CA5177AD54C007CCF18 /* UserPrefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPrefViewController.m; sourceTree = "<group>"; };
 		9448AA3F177ABF0600639E6D /* Week 8 Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 8 Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9448AA42177ABF0600639E6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9448AA44177ABF0600639E6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +49,16 @@
 		9448AA51177ABF0600639E6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9448AA52177ABF0600639E6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9448AA55177ABF0600639E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9448AA57177ABF0600639E6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9448AA58177ABF0600639E6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9448AA5A177ABF0600639E6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9448AA60177ABF0600639E6D /* Week 8 Final ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 8 Final ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9448AA61177ABF0600639E6D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9448AA69177ABF0600639E6D /* Week 8 Final ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week 8 Final ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		9448AA6B177ABF0600639E6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9448AA6D177ABF0600639E6D /* Week_8_Final_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_8_Final_ProjectTests.m; sourceTree = "<group>"; };
+		9448AA77177ABFA300639E6D /* FoxWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoxWebViewController.h; sourceTree = "<group>"; };
+		9448AA78177ABFA300639E6D /* FoxWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoxWebViewController.m; sourceTree = "<group>"; };
+		9448AA7A177ABFB800639E6D /* RumorsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RumorsWebViewController.h; sourceTree = "<group>"; };
+		9448AA7B177ABFB800639E6D /* RumorsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RumorsWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +121,14 @@
 				9448AA51177ABF0600639E6D /* AppDelegate.h */,
 				9448AA52177ABF0600639E6D /* AppDelegate.m */,
 				9448AA54177ABF0600639E6D /* Main.storyboard */,
-				9448AA57177ABF0600639E6D /* ViewController.h */,
-				9448AA58177ABF0600639E6D /* ViewController.m */,
 				9448AA5A177ABF0600639E6D /* Images.xcassets */,
 				9448AA49177ABF0600639E6D /* Supporting Files */,
+				9448AA77177ABFA300639E6D /* FoxWebViewController.h */,
+				9448AA78177ABFA300639E6D /* FoxWebViewController.m */,
+				9448AA7A177ABFB800639E6D /* RumorsWebViewController.h */,
+				9448AA7B177ABFB800639E6D /* RumorsWebViewController.m */,
+				942F1CA4177AD54C007CCF18 /* UserPrefViewController.h */,
+				942F1CA5177AD54C007CCF18 /* UserPrefViewController.m */,
 			);
 			path = "Week 8 Final Project";
 			sourceTree = "<group>";
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9448AA59177ABF0600639E6D /* ViewController.m in Sources */,
+				9448AA79177ABFA300639E6D /* FoxWebViewController.m in Sources */,
+				9448AA7C177ABFB800639E6D /* RumorsWebViewController.m in Sources */,
 				9448AA53177ABF0600639E6D /* AppDelegate.m in Sources */,
 				9448AA4F177ABF0600639E6D /* main.m in Sources */,
+				942F1CA6177AD54C007CCF18 /* UserPrefViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Week 8 Final Project/Week 8 Final Project-Prefix.pch";
 				INFOPLIST_FILE = "Week 8 Final Project/Week 8 Final Project-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Week 8 Final Project/Week 8 Final Project-Prefix.pch";
 				INFOPLIST_FILE = "Week 8 Final Project/Week 8 Final Project-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,7 +425,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Week 8 Final ProjectTests/Week 8 Final ProjectTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -429,7 +445,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Week 8 Final Project/Week 8 Final Project-Prefix.pch";
 				INFOPLIST_FILE = "Week 8 Final ProjectTests/Week 8 Final ProjectTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,6 +472,7 @@
 				9448AA73177ABF0600639E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9448AA74177ABF0600639E6D /* Build configuration list for PBXNativeTarget "Week 8 Final ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +481,7 @@
 				9448AA76177ABF0600639E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
