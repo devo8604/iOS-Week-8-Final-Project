@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940BC4F6178101EA00070973 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 940BC4F5178101EA00070973 /* Settings.bundle */; };
 		942F1CA6177AD54C007CCF18 /* UserPrefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942F1CA5177AD54C007CCF18 /* UserPrefViewController.m */; };
 		9448AA43177ABF0600639E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448AA42177ABF0600639E6D /* Foundation.framework */; };
 		9448AA45177ABF0600639E6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448AA44177ABF0600639E6D /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		940BC4F5178101EA00070973 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
 		942F1CA4177AD54C007CCF18 /* UserPrefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPrefViewController.h; sourceTree = "<group>"; };
 		942F1CA5177AD54C007CCF18 /* UserPrefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPrefViewController.m; sourceTree = "<group>"; };
 		9448AA3F177ABF0600639E6D /* Week 8 Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 8 Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,17 +120,17 @@
 		9448AA48177ABF0600639E6D /* Week 8 Final Project */ = {
 			isa = PBXGroup;
 			children = (
-				9448AA51177ABF0600639E6D /* AppDelegate.h */,
-				9448AA52177ABF0600639E6D /* AppDelegate.m */,
-				9448AA54177ABF0600639E6D /* Main.storyboard */,
-				9448AA5A177ABF0600639E6D /* Images.xcassets */,
-				9448AA49177ABF0600639E6D /* Supporting Files */,
 				9448AA77177ABFA300639E6D /* FoxWebViewController.h */,
 				9448AA78177ABFA300639E6D /* FoxWebViewController.m */,
 				9448AA7A177ABFB800639E6D /* RumorsWebViewController.h */,
 				9448AA7B177ABFB800639E6D /* RumorsWebViewController.m */,
 				942F1CA4177AD54C007CCF18 /* UserPrefViewController.h */,
 				942F1CA5177AD54C007CCF18 /* UserPrefViewController.m */,
+				9448AA51177ABF0600639E6D /* AppDelegate.h */,
+				9448AA52177ABF0600639E6D /* AppDelegate.m */,
+				9448AA54177ABF0600639E6D /* Main.storyboard */,
+				9448AA5A177ABF0600639E6D /* Images.xcassets */,
+				9448AA49177ABF0600639E6D /* Supporting Files */,
 			);
 			path = "Week 8 Final Project";
 			sourceTree = "<group>";
@@ -136,6 +138,7 @@
 		9448AA49177ABF0600639E6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				940BC4F5178101EA00070973 /* Settings.bundle */,
 				9448AA4A177ABF0600639E6D /* Week 8 Final Project-Info.plist */,
 				9448AA4B177ABF0600639E6D /* InfoPlist.strings */,
 				9448AA4E177ABF0600639E6D /* main.m */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940BC4F6178101EA00070973 /* Settings.bundle in Resources */,
 				9448AA5B177ABF0600639E6D /* Images.xcassets in Resources */,
 				9448AA4D177ABF0600639E6D /* InfoPlist.strings in Resources */,
 				9448AA56177ABF0600639E6D /* Main.storyboard in Resources */,

@@ -12,7 +12,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSDictionary *showTxtView = [NSDictionary dictionaryWithObject: @"Yes"
+                                                            forKey: @"showLabelBool"];
+    [defaults registerDefaults: showTxtView];
+    [defaults synchronize];
+    
     return YES;
 }
 							

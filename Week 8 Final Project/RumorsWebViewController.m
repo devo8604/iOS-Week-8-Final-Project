@@ -26,6 +26,11 @@
     return self;
 }
 
+- (NSUInteger) supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscapeLeft | UIInterfaceOrientationMaskLandscapeRight;
+}
+
 - (void)viewDidLoad
 {
     NSURL *url = [NSURL URLWithString:@"http://iphone.macrumors.com/"];

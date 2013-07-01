@@ -11,5 +11,17 @@
 @interface UserPrefViewController : UIViewController
 
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UITextField *firstName;
+@property (weak, nonatomic) IBOutlet UITextField *lastName;
+@property (weak, nonatomic) IBOutlet UITextField *nickName;
+@property (weak, nonatomic) IBOutlet UITextField *homeCity;
+@property (weak, nonatomic) IBOutlet UITextField *homeState;
+@property UITextField *currentTextField;
+@property BOOL keyboardIsShown;
+
+
+- (IBAction)saveButton:(id)sender;
+
 
 @end
